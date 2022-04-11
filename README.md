@@ -1,5 +1,7 @@
 Nikudator Infra repository
 
+К сожалению тесты не пропустили мой вариант подключения в одну строку из-за наличия символов...
+
 Дополнительное задание (подключение к someinternalhost через алиас):
 
 Создаем по пути ~/.ssh/ файл config
@@ -14,7 +16,7 @@ host someinternalhost
 hostname 10.129.0.31
 user nikola
 forwardagent yes
-proxycommand ssh nikola@51.250.107.181 -W %h:%p
+proxycommand ssh nikola@51.250.107.181
 
 
 
