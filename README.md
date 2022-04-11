@@ -1,9 +1,5 @@
 Nikudator Infra repository
 
-Первое задание, подключение в одну команду к someinternalhost через bastion:
-
-eval "$(ssh-agent)" && ssh-add ~/.ssh/id_rsa && ssh -A nikola@51.250.107.181 ssh -tt nikola@10.129.0.31
-
 Дополнительное задание (подключение к someinternalhost через алиас):
 
 Создаем по пути ~/.ssh/ файл config
