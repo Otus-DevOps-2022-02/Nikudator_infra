@@ -4,7 +4,7 @@ Nikudator Infra repository
 
 Дополнительное задание (подключение к someinternalhost через алиас):
 
-Создаем по пути ~/.ssh/ файл config
+Создаем по пути /.ssh/ файл config
 
 В него прописываем:
 IdentityFile /home/nikola/.ssh/id_rsa
@@ -16,7 +16,7 @@ host someinternalhost
 hostname 10.129.0.31
 user nikola
 forwardagent yes
-proxycommand ssh nikola@51.250.107.181
+proxycommand ssh nikola 51.250.107.181
 
 
 
