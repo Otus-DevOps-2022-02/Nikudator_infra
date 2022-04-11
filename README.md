@@ -1,4 +1,3 @@
-# Nikudator_infra
 Nikudator Infra repository
 
 Первое задание, подключение в одну команду к someinternalhost через bastion:
